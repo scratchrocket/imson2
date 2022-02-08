@@ -1,0 +1,85 @@
+html,body {
+  height:100vh;
+}
+.total {
+  display:grid;
+  grid-template-rows:1fr 5fr;
+  height:100%;
+}
+.grid1 {
+  display:grid;
+  grid-template-columns: 2fr 1fr;
+  border-bottom:1.5px solid dimgray;
+}
+.title {
+  position:relative;
+}
+
+.title > span {
+  position:absolute;
+  top:30%;
+  left:12%;
+  font-size:x-large;
+  font-family:roboto
+}
+
+.title > span > a {
+  text-decoration:none;
+  color:black;
+}
+
+.login {
+  position:relative;
+}
+
+.login > span {
+  position:absolute;
+  top:40%;
+  left:20%;
+}
+
+.login > span > pre > a {
+  text-decoration:none;
+  color:black;
+}
+
+
+pre {
+  font-family:roboto;
+  font-weight:bold;
+}
+
+.grid2 {
+  display:grid;
+  grid-template-columns: 2fr 1fr;
+  border-bottom:20px solid green;
+  background-image:url('landscapes1.jpg');
+  background-repeat:no-repeat;
+  background-position:initial;
+}
+
+.letter_box {
+  position:relative;
+}
+
+.letter_box > img {
+  position:absolute;
+  height:80%;
+  bottom: 0px;
+  left:0px;
+}
+
+.paper_box {
+  position:relative;
+}
+
+.paper_box > img {
+  position:absolute;
+  width:50%;
+  bottom: 0px;
+  left:20px;
+}
+@font-face {
+  font-family:'roboto';
+  src: url('\RobotoCondensed-Bold.ttf')
+}
